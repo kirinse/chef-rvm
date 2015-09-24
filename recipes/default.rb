@@ -24,6 +24,8 @@ chef_gem 'rvm' do
   compile_time true
 end
 
+require 'rvm'
+
 create_rvm_shell_chef_wrapper
 create_rvm_chef_user_environment
 
